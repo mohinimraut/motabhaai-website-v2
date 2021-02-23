@@ -653,25 +653,25 @@ sellers to promote,manage & sell their goods and services
   
  
   <div>
-<div id="registerwebview" class="registercontainer" style={{marginTop:'25%',borderBottom:"5%",height:"310px",backgroundColor:"#FADA8033"}}>
+<div id="registerwebview" class="registercontainer" style={{marginTop:'25%',borderBottom:"5%",height:"360px",backgroundColor:"#FADA8033"}}>
   <div class="container">
 
-    <div  class="row justify-content-center ">
+    <div  class="row">
       <div id="registertitletextcotainer" class="col-lg-6">
         <div class="row">
         <p id="registertitle" style={{color:"#5C343C",fontFamily:"Roboto"}}>Register</p>
         </div>
         <div class="row">
-        <p style={{color:"#5C343C",fontFamily:"Roboto",fontWeight:"bold"}}>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+        <p style={{color:"#5C343C",fontFamily:"Roboto",fontSize:"30px"}}>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
         </div>
       </div>
-      <div id="registercard" class="col-lg-4" style={{backgroundColor:"#5C343C",borderRadius:"20px"}}>
+      <div id="registercard" class="col-lg-6" style={{backgroundColor:"#5C343C",borderRadius:"20px"}}>
       <div class="row">
-        <p id="motabhaaisambhal" style={{ color:"#FEF8E6"}}>#Motabhaai Sambhaalega</p>
+        <p id="motabhaaisambhal" style={{ color:"#FEF8E6",fontSize:"30px"}}>#Motabhaai Sambhaalega</p>
         </div>
         <div class="row">
         <div class="row">
-        <p id="registermotabhaitext" style={{color:"#FEF8E6",fontFamily:"Roboto",textAlign:"center"}}>It's not just a hastag, it a commitment. you are out partners, out superstars. so, when we say motabhaai sambhaal lega, we mean aap sambhaal lega, kyunki hum sath sath hai.</p>
+        <p id="registermotabhaitext" style={{color:"#FEF8E6",fontFamily:"Roboto",textAlign:"center",fontSize:"25px"}}>It's not just a hastag, it a commitment. you are out partners, out superstars. so, when we say motabhaai sambhaal lega, we mean aap sambhaal lega, kyunki hum sath sath hai.</p>
         </div>
         </div>
       </div>

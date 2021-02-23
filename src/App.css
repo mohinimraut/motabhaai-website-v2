@@ -176,7 +176,7 @@ a.active_class {
     padding-left: 50%;
   }
   #meetid {
-    font-size: 20px;
+    font-size: 30px;
   }
 }
 
@@ -352,8 +352,10 @@ a.active_class {
   }
   #registercard {
     margin-top: 3%;
+   
   }
   #motabhaaisambhal {
+  
     text-align: center;
     margin-top: 3rem;
   }
@@ -436,6 +438,7 @@ a.active_class {
   }
   #registertitletextcotainer {
     margin-top: 7%;
+    
   }
   #registercard {
     margin-top: 3%;
@@ -2803,6 +2806,7 @@ a.active_class {
 
 /* dubble Extra large devices (large desktops, 1921px and up) */
 @media (min-width: 1920.98px) and (max-width: 2560px) {
+ 
   #sidehead {
     width: 100%;
     height: 100%;

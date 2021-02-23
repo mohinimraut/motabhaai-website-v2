@@ -76,57 +76,57 @@ const Map = ({shops, zoomLevel }) => {
 })}
 
 
-<table class="table table-dark" id="maptableweb">
+<table style={{backgroundColor:"#556577",opacity:'2'}}  id="maptableweb">
   <thead>
-    <tr style={{height:"3rem"}}>
+    <tr style={{height:"4rem"}}>
    
-      <th scope="col">Type</th>
-      <th scope="col">No of shop</th>
+      <th style={{color:"#fff"}} class="tdf" scope="col">Type</th>
+      <th style={{color:"#fff"}} class="tds" scope="col">No of shop</th>
      
     </tr>
   </thead>
   <tbody>
   
-    <tr>
+    <tr class="tdwebrow">
    
-    <td onClick={() => selectShop('dairy')} key={'dairy'}>Dairy</td>
-      <td>34</td>
+    <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('dairy')} key={'dairy'}>Dairy</td>
+      <td style={{color:"#FFFFFF"}} class="tds">34</td>
      
     </tr>
-    <tr>
+    <tr class="tdwebrow">
   
-      <td onClick={() => selectShop('kiranas')} key={'kiranas'}>Kiranas</td>
-      <td>04</td>
+      <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('kiranas')} key={'kiranas'}>Kiranas</td>
+      <td style={{color:"#FFFFFF"}} class="tds">04</td>
      
     </tr>
-    <tr>
+    <tr class="tdwebrow">
      
-      <td onClick={() => selectShop('bakery')} key={'bakery'} >Bakery</td>
-      <td>12</td>
+      <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('bakery')} key={'bakery'} >Bakery</td>
+      <td style={{color:"#FFFFFF"}} class="tds">12</td>
      </tr>
-     <tr>
-      <td onClick={() => selectShop('toys')} key={'toys'}>Toys</td>
-      <td>05</td>
+     <tr class="tdwebrow">
+      <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('toys')} key={'toys'}>Toys</td>
+      <td style={{color:"#FFFFFF"}} class="tds">05</td>
 </tr>
-<tr>
-      <td onClick={() => selectShop('cosmetic')} key={'cosmetic'}>Cosmetic</td>
-      <td>08</td>
+<tr class="tdwebrow">
+      <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('cosmetic')} key={'cosmetic'}>Cosmetic</td>
+      <td style={{color:"#FFFFFF"}} class="tds">08</td>
 </tr>
-<tr>
-      <td onClick={() => selectShop('giftshop')} key={'giftshop'}>Gift Shop</td>
-      <td>20</td>
+<tr class="tdwebrow">
+      <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('giftshop')} key={'giftshop'}>Gift Shop</td>
+      <td style={{color:"#FFFFFF"}} class="tds">20</td>
 </tr>
-<tr>
-      <td onClick={() => selectShop('electrical')} key={'electrical'}>Electrical</td>
-      <td>25</td>
+<tr class="tdwebrow">
+      <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('electrical')} key={'electrical'}>Electrical</td>
+      <td style={{color:"#FFFFFF"}} class="tds">25</td>
      </tr> 
-     <tr>
-      <td onClick={() => selectShop('hardware')} key={'hardware'}>Hardware</td>
-      <td>27</td>
+     <tr class="tdwebrow">
+      <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('hardware')} key={'hardware'}>Hardware</td>
+      <td style={{color:"#FFFFFF"}} class="tds">27</td>
 </tr>
-<tr>
-      <td onClick={() => selectShop('groceries')} key={'groceries'}>Groceries</td>
-      <td>13</td>
+<tr class="tdwebrow">
+      <td style={{color:"#FFFFFF"}} class="tdf" onClick={() => selectShop('groceries')} key={'groceries'}>Groceries</td>
+      <td style={{color:"#FFFFFF"}} class="tds">13</td>
     </tr>
   </tbody>
 </table>
